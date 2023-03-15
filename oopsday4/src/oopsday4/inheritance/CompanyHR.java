@@ -2,35 +2,27 @@ package oopsday4.inheritance;
 
 public class CompanyHR {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Employee emp1 = new Employee("John Doe","Male",24,101,"Research",40000);
+		
+		Employee emp1= new Employee("John Dpe","Male",24,101,"Research",2000000.0);
 		System.out.println(emp1);
-		
-		Employee emp2 = new Employee("Jane Doe","Female",23,102,"Accounting",35000);
+		//Employee emp2= new Employee(102,"25",2678900);
+		Employee emp2= new Employee("taniya","female",22,102,"Accounting",400000);
 		System.out.println(emp2);
-		
-		Employee emp3 = new Employee("Joson Doe","Male",24,103,"sales",10000);
+		Employee emp3= new Employee("maria","female",22,104,"training",30000000);
 		System.out.println(emp3);
-		
-		Employee emp4 = new Employee("Jones Doe","Male",23,104,"Research",40000);
+		Employee emp4= new Employee("merin","female",24,107,"marketing",5100000);
 		System.out.println(emp4);
-		
-		Employee emp5 = new Employee("John Doe","Male",24,101,"Research",40000);
+		Employee emp5= new Employee("John Dpe","Male",24,101,"Research",2000000.0);
 		System.out.println(emp5);
-		
-		//constructors are not inherited
-		
-		if(emp1.equals(emp5) || emp1 == emp5)
-		{
-			System.out.println("objects are same");
+		if(emp1.equals(emp5))// passes emp5 and invoked by emp1 so current object is emp1
 			
-		}
+			System.out.println("same");
 		else
-		{
-			System.out.println("objects are not same");
-		}
+			
+			System.out.println("not same");
+		
 
 	}
 

@@ -1,0 +1,3 @@
+module testingwithjunit {
+	requires junit;
+}
