@@ -15,9 +15,13 @@ public class TestStrings {
 		for(byte b: bytes) {
 			System.out.println(b);
 		}
+		
 	char chars[] = {'U','S','T',' ','G'};
 	str = new String(chars);
 	System.out.println(str);
+	
+	System.out.println("     ");
+	
 	
 	str.getChars(0, chars.length - 1, chars, 0);
 	for(char c: chars)
@@ -45,6 +49,8 @@ public class TestStrings {
      str1 = new String("cartoon");
 	System.out.println(str1.startsWith("car"));
 	System.out.println(str1.endsWith("toon"));
+	
+	System.out.println("INDEXES:");
 	
 	int apos = str1.indexOf('a');
 	int tpos = str1.indexOf('t');

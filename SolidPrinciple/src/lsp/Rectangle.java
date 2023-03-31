@@ -1,6 +1,6 @@
 package lsp;
 
-public class Rectangle implements Shape{
+public abstract class Rectangle implements Shape{
 	
 	private int length;
 	private int breadth;

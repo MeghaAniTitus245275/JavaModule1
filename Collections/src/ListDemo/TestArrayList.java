@@ -22,6 +22,7 @@ public class TestArrayList {
 		System.out.println(flowers);
 		System.out.println(flowers.size());
 		System.out.println(flowers.get(2));
+		
 		System.out.println(flowers.contains("Lilly"));
 		
 		flowers.add(2,"sunflower");

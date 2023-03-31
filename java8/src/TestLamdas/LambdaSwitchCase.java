@@ -11,7 +11,7 @@ public class LambdaSwitchCase {
 		case "/" ->{
 			if(y==0)
 			{
-				throw new IllegalArgumentException("cant divide byb zero");
+				throw new IllegalArgumentException("cant divide by zero");
 			}
 			yield x/y;
 		}
